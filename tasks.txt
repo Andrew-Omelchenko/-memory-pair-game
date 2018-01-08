@@ -3,3 +3,4 @@
 3. Choose Shuffle function (try them in Dev Tools).
 4. Try flip animation (https://davidwalsh.name/css-flip).
 5. Add Shuffle function and Flip Animation.
+6. Add classes Cell and GameTable.
