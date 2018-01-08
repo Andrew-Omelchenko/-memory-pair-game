@@ -1,0 +1,30 @@
+.title {
+	width: 100%;
+	text-align: center;
+}
+
+.controls {
+	width: 100%;
+	text-align: center;
+}
+
+.flex-container {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	background-color: #afafaf;
+}
+
+.box {
+	width: 25%;
+}
+
+
+@media screen and (min-width: 600px) {
+	.flex-container {
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
