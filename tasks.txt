@@ -9,3 +9,4 @@
 9. Rename button to Reset and add resetting game behavior.
 10. Add styles for selected and hidden cells.
 11. Remove hover behavior.
+12. Add event listener for cells.
