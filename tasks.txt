@@ -4,3 +4,8 @@
 4. Try flip animation (https://davidwalsh.name/css-flip).
 5. Add Shuffle function and Flip Animation.
 6. Add classes Cell and GameTable.
+7. Test GameTable creation.
+8. Add class Game.
+9. Rename button to Reset and add resetting game behavior.
+10. Add styles for selected and hidden cells.
+11. Remove hover behavior.

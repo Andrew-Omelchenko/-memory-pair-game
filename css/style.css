@@ -38,10 +38,12 @@
 .flip-container {
 	perspective: 1000px;
 }
-	/* flip the pane when hovered */
+
+/*
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
 		transform: rotateY(180deg);
 	}
+*/
 
 .flip-container, .front, .back {
 	width: 100px;
@@ -78,3 +80,12 @@
 	transform: rotateY(0deg);
 }
 
+/* styles for selected and hidden cells */
+.selected-cell {
+	transform: rotateY(180deg);
+}
+
+.hidden-cell {
+	display: none;
+	cursor: default;
+}

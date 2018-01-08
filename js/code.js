@@ -57,10 +57,27 @@ GameTable.prototype.draw = function() {
 	}
 };
 
+// class Game
+var Game = function(table) {
+	this.gameTable = new GameTable(table);
+	this.selectedCells = [];
+	this.nTurns = 0;
+};
+Game.prototype.init = function() {
+	this.gameTable.shuffle();
+	this.gameTable.draw();
+	this.updateCounter();
+};
+Game.prototype.updateCounter = function() {
+	var span = document.getElementById("numder-of-turns");
+	span.innerText = this.nTurns;
+};
+
 window.onload = function() {
 	// TODO
-	var gameTable = new GameTable(colorsTable);
-	gameTable.shuffle();
-	gameTable.draw();
-
+	var game = new Game(colorsTable);
+	game.init();
+	document.getElementById("reset_button").addEventListener("click", function() {
+		window.location.reload();
+	});
 };
