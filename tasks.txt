@@ -10,3 +10,9 @@
 10. Add styles for selected and hidden cells.
 11. Remove hover behavior.
 12. Add event listener for cells.
+
+// TODO
+1. Add cell_id and fore_color properties to Cell class.
+2. Move turnOver and hide functions to Cell class and refactor them accordingly.
+3. Rework GameTable and Game classes in accordance with 1 and 2 todo list items.
+4. Add images...
