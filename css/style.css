@@ -63,7 +63,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-
+	border-radius: 7%;
 	border: 1px solid Sienna;
 }
 
@@ -87,4 +87,6 @@
 
 .hidden-cell {
 	display: none;
+	opacity: 0;
+	transition-duration: 1.4s;
 }
