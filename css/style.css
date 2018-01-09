@@ -86,7 +86,7 @@
 }
 
 .hidden-cell {
-	display: none;
+	transition-property: "opacity";
 	opacity: 0;
 	transition-duration: 1.4s;
 }

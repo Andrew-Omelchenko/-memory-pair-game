@@ -129,4 +129,8 @@ function turnOver(targetCell) {
 
 function hide(targetCell) {
 	targetCell.parentElement.classList.toggle("hidden-cell");
+	setTimeout(function() {
+						
+		targetCell.style.display = "none";
+	}, 1400);
 };
